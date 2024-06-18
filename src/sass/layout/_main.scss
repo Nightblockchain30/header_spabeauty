@@ -1,0 +1,54 @@
+.main__container {
+    @include margins();
+    margin-top: 80px;
+
+    &-top {
+        h1 {
+            font-size: 64px;
+            color: $dark-blue;
+            max-width: 50%;
+            font-weight: 800;
+            font-family: $primary-font;
+            margin-bottom: 32px;
+        }
+
+        p {
+            max-width: 42%;
+            font-size: 24px;
+            color: $grey;
+            line-height: 40px;
+            // margin-bottom: 56px;
+        }
+    }
+
+    &-botton {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+
+        a.button {
+            background-color: $dark-blue;
+            color: white;
+            padding: 16.5px 46px;
+            text-decoration: none;
+            border-radius: 32px;
+        }
+
+        &-watch {
+            display: flex;
+            align-items: center;
+
+            img {
+                padding-top: 40px;
+                width: 120px;
+            }
+
+            a.watch {
+                text-decoration: none;
+                font-size: 18px;
+                color: $dark-blue;
+            }
+
+        }
+    }
+}
