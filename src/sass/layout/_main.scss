@@ -51,4 +51,44 @@
 
         }
     }
+
+    &-features {
+        display: flex;
+        column-gap: 72px;
+
+        &-article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px;
+
+            &-img {
+                width: 70px;
+                margin-bottom: 24px;
+            }
+
+            &-p1 {
+                color: $dark-blue;
+                font-size: 36px;
+                font-weight: 600;
+                margin-bottom: 16px;
+            }
+
+            &-p2 {
+                color: $grey;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                line-height: 25px;
+
+                span {
+                    color: $grey;
+                    font-weight: 400;
+                }
+            }
+
+
+        }
+    }
+
 }
