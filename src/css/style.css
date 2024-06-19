@@ -61,7 +61,13 @@ body {
 .main__container {
   margin-right: 160px;
   margin-left: 160px;
+  margin-left: 160px;
   margin-top: 80px;
+  min-height: 916px;
+  background-image: url(../img/hero_woman2x.png);
+  background-position: 235px -123px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
 }
 .main__container-top h1 {
   font-size: 64px;
@@ -70,6 +76,7 @@ body {
   font-weight: 800;
   font-family: "Poppins", sans-serif;
   margin-bottom: 32px;
+  padding-top: 50px;
 }
 .main__container-top p {
   max-width: 660px;
@@ -159,14 +166,14 @@ body {
 .main__container-reviews .top {
   position: absolute;
   top: 300px;
-  left: 300px;
+  left: 340px;
 }
 .main__container-reviews .botton {
   position: absolute;
   top: 580px;
-  right: 100px;
+  right: 240px;
 }
 .main__container .main__grid {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 60% 50%;
 }/*# sourceMappingURL=style.css.map */

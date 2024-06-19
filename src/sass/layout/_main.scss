@@ -1,6 +1,12 @@
 .main__container {
     @include margins();
+    margin-left: 160px;
     margin-top: 80px;
+    min-height: 916px;
+    background-image: url(../img/hero_woman2x.png);
+    background-position: 235px -123px;
+    background-repeat: no-repeat;
+    background-size: 1500px;
 
     &-top {
         h1 {
@@ -10,6 +16,7 @@
             font-weight: 800;
             font-family: $primary-font;
             margin-bottom: 32px;
+            padding-top: 50px;
         }
 
         p {
@@ -122,19 +129,19 @@
         .top {
             position: absolute;
             top: 300px;
-            left: 300px;
+            left: 340px;
         }
 
         .botton {
             position: absolute;
             top: 580px;
-            right: 100px;
+            right: 240px;
         }
     }
 
     .main__grid {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 60% 50%;
     }
 
 }
