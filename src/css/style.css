@@ -53,20 +53,23 @@
 }
 
 body {
-  background-image: url("../img/background.png");
-  background-position: top right;
+  background-image: url(../img/hero_woman2x.png);
   background-repeat: no-repeat;
+  background-size: 1550px;
+  background-position: 400px 6px;
 }
 
 .main__container {
   margin-right: 160px;
   margin-left: 160px;
   margin-top: 80px;
+  margin-right: 0;
 }
 .main__container-top h1 {
+  padding-top: 20px;
   font-size: 64px;
   color: #264065;
-  max-width: 90%;
+  max-width: 85%;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
   margin-bottom: 32px;
@@ -139,8 +142,7 @@ body {
 }
 .main__container-reviews-review {
   padding: 24px;
-  background-color: #FFFFFF;
-  opacity: 0.5;
+  background-color: #909090;
   border-radius: 16px;
 }
 .main__container-reviews-review img {
@@ -158,13 +160,13 @@ body {
 }
 .main__container-reviews .top {
   position: absolute;
-  top: 300px;
+  top: 330px;
   left: 300px;
 }
 .main__container-reviews .botton {
   position: absolute;
-  top: 580px;
-  right: 100px;
+  top: 600px;
+  right: 210px;
 }
 .main__container .main__grid {
   display: grid;
