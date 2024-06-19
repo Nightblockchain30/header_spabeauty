@@ -40,6 +40,14 @@
             padding: 16.5px 46px;
             text-decoration: none;
             border-radius: 32px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &:active {
+                background-color: black;
+            }
         }
 
         &-watch {
@@ -114,6 +122,11 @@
             background-color: #FFFFFF;
             opacity: .7;
             border-radius: 16px;
+
+            &:hover {
+                border: 1px solid $dark-blue;
+                cursor: pointer;
+            }
 
             img {
                 margin-bottom: 8px;

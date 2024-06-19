@@ -11,6 +11,11 @@
         list-style: none;
 
         li {
+
+            &:hover {
+                transform: scale(1.2);
+            }
+
             a {
                 text-decoration: none;
                 color: $dark-blue;
@@ -26,6 +31,7 @@
                     right: -30px;
                     background-image: url("../img/icon-arrow-down.svg");
                 }
+
             }
         }
 
@@ -36,12 +42,31 @@
         column-gap: 32px;
         align-items: center;
 
+        & a:nth-child(1) img {
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
         & a:nth-child(2) img {
             margin-right: 34px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
         }
 
         & a:nth-child(3) {
             color: $dark-blue;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &:active {
+                color: white;
+            }
         }
 
         & a:nth-child(4) {
@@ -49,6 +74,14 @@
             background-color: $dark-blue;
             color: #FFFFFF;
             border-radius: 32px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+            &:active {
+                background-color: black;
+            }
         }
     }
 }

@@ -19,6 +19,9 @@
   column-gap: 56px;
   list-style: none;
 }
+.header__container-nav ul li:hover {
+  transform: scale(1.2);
+}
 .header__container-nav ul li a {
   text-decoration: none;
   color: #264065;
@@ -39,17 +42,35 @@
   column-gap: 32px;
   align-items: center;
 }
+.header__container-aside a:nth-child(1) img:hover {
+  transform: scale(1.1);
+}
 .header__container-aside a:nth-child(2) img {
   margin-right: 34px;
 }
+.header__container-aside a:nth-child(2) img:hover {
+  transform: scale(1.1);
+}
 .header__container-aside a:nth-child(3) {
   color: #264065;
+}
+.header__container-aside a:nth-child(3):hover {
+  transform: scale(1.1);
+}
+.header__container-aside a:nth-child(3):active {
+  color: white;
 }
 .header__container-aside a:nth-child(4) {
   padding: 16.5px 40.5px;
   background-color: #264065;
   color: #FFFFFF;
   border-radius: 32px;
+}
+.header__container-aside a:nth-child(4):hover {
+  transform: scale(1.1);
+}
+.header__container-aside a:nth-child(4):active {
+  background-color: black;
 }
 
 body {
@@ -96,6 +117,12 @@ body {
   padding: 16.5px 46px;
   text-decoration: none;
   border-radius: 32px;
+}
+.main__container-botton a.button:hover {
+  transform: scale(1.1);
+}
+.main__container-botton a.button:active {
+  background-color: black;
 }
 .main__container-botton-watch {
   display: flex;
@@ -154,6 +181,10 @@ body {
   background-color: #FFFFFF;
   opacity: 0.7;
   border-radius: 16px;
+}
+.main__container-reviews-review:hover {
+  border: 1px solid #264065;
+  cursor: pointer;
 }
 .main__container-reviews-review img {
   margin-bottom: 8px;
