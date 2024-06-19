@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
-
 * {
   padding: 0;
   margin: 0;
@@ -15,20 +14,17 @@
   justify-content: space-between;
   align-items: center;
 }
-
 .header__container-nav ul {
   display: flex;
   column-gap: 56px;
   list-style: none;
 }
-
 .header__container-nav ul li a {
   text-decoration: none;
   color: #264065;
   font-size: 18px;
   position: relative;
 }
-
 .header__container-nav ul li a.more::after {
   content: "";
   position: absolute;
@@ -38,21 +34,17 @@
   right: -30px;
   background-image: url("../img/icon-arrow-down.svg");
 }
-
 .header__container-aside {
   display: flex;
   column-gap: 32px;
   align-items: center;
 }
-
 .header__container-aside a:nth-child(2) img {
   margin-right: 34px;
 }
-
 .header__container-aside a:nth-child(3) {
   color: #264065;
 }
-
 .header__container-aside a:nth-child(4) {
   padding: 16.5px 40.5px;
   background-color: #264065;
@@ -73,11 +65,10 @@ body {
   margin-top: 80px;
   min-height: 916px;
   background-image: url(../img/hero_woman2x.png);
-  background-position: 235px -123px;
+  background-position: 300px -123px;
   background-repeat: no-repeat;
   background-size: 1500px;
 }
-
 .main__container-top h1 {
   padding-top: 20px;
   font-size: 64px;
@@ -88,20 +79,17 @@ body {
   margin-bottom: 32px;
   padding-top: 50px;
 }
-
 .main__container-top p {
   max-width: 660px;
   font-size: 24px;
   color: #909090;
   line-height: 40px;
 }
-
 .main__container-botton {
   display: flex;
   align-items: center;
-  column-gap: 32px;
+  column-gap: 10px;
 }
-
 .main__container-botton a.button {
   background-color: #264065;
   color: white;
@@ -109,47 +97,40 @@ body {
   text-decoration: none;
   border-radius: 32px;
 }
-
 .main__container-botton-watch {
   display: flex;
   align-items: center;
 }
-
 .main__container-botton-watch img {
   padding-top: 40px;
   width: 120px;
 }
-
 .main__container-botton-watch a.watch {
   text-decoration: none;
   font-size: 18px;
   color: #264065;
 }
-
 .main__container-features {
   display: flex;
   column-gap: 72px;
 }
-
 .main__container-features-article {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 32px;
+  padding-left: 60px;
 }
-
 .main__container-features-article-img {
   width: 70px;
   margin-bottom: 24px;
 }
-
 .main__container-features-article-p1 {
   color: #264065;
   font-size: 36px;
   font-weight: 600;
   margin-bottom: 16px;
 }
-
 .main__container-features-article-p2 {
   color: #909090;
   display: flex;
@@ -157,54 +138,47 @@ body {
   align-items: center;
   line-height: 25px;
 }
-
 .main__container-features-article-p2 span {
   color: #909090;
   font-weight: 400;
 }
-
+.main__container-features .article3 {
+  padding-left: 20px;
+}
 .main__container-reviews {
   max-width: 845px;
   position: relative;
 }
-
 .main__container-reviews-review {
   padding: 24px;
-  background-color: #909090;
+  background-color: #FFFFFF;
+  opacity: 0.7;
   border-radius: 16px;
 }
-
 .main__container-reviews-review img {
   margin-bottom: 8px;
 }
-
 .main__container-reviews-review p {
   max-width: 300px;
   margin-bottom: 8px;
   color: #000000;
   font-weight: 600;
 }
-
 .main__container-reviews-review p.blue {
   color: #264065;
   font-weight: 800;
 }
-
 .main__container-reviews .top {
   position: absolute;
   top: 300px;
-  left: 340px;
+  left: 390px;
 }
-
 .main__container-reviews .botton {
   position: absolute;
   top: 580px;
-  right: 240px;
+  right: 200px;
 }
-
 .main__container .main__grid {
   display: grid;
   grid-template-columns: 60% 50%;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

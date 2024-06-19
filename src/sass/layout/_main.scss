@@ -4,7 +4,7 @@
     margin-top: 80px;
     min-height: 916px;
     background-image: url(../img/hero_woman2x.png);
-    background-position: 235px -123px;
+    background-position: 300px -123px;
     background-repeat: no-repeat;
     background-size: 1500px;
 
@@ -32,7 +32,7 @@
     &-botton {
         display: flex;
         align-items: center;
-        column-gap: 32px;
+        column-gap: 10px;
 
         a.button {
             background-color: $dark-blue;
@@ -69,6 +69,7 @@
             flex-direction: column;
             align-items: center;
             padding: 32px;
+            padding-left: 60px;
 
             &-img {
                 width: 70px;
@@ -97,6 +98,10 @@
 
 
         }
+
+        .article3 {
+            padding-left: 20px;
+        }
     }
 
     &-reviews {
@@ -106,8 +111,8 @@
 
         &-review {
             padding: 24px;
-            background-color: $grey;
-            // opacity: .5;
+            background-color: #FFFFFF;
+            opacity: .7;
             border-radius: 16px;
 
             img {
@@ -130,13 +135,13 @@
         .top {
             position: absolute;
             top: 300px;
-            left: 340px;
+            left: 390px;
         }
 
         .botton {
             position: absolute;
             top: 580px;
-            right: 240px;
+            right: 200px;
         }
     }
 
